@@ -1,0 +1,108 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 16px;
+    
+/*Porque ao alinhar o texto centralizando nao aceita ao comando*/
+    
+  }
+  
+  form {
+    max-width: 500px;
+    min-width: 300px;  
+  }
+
+  fieldset {
+    border: none;
+  }
+
+main.principal{ 
+   margin-left: 33.33%;
+   /*ALINHAMENTO FEITO A PARTIR DA MARGEM*/
+}
+
+.cabecalho {
+    text-align: center;   
+}
+
+fieldset.grupo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+a{
+    color: rgb(123, 13, 123);
+}
+
+input.dados{
+    display: block;
+    line-height: 15px;
+    margin-bottom: 5px;
+    padding: 5px;
+    background-color: #08082e ;
+    margin-top: 5px;
+    margin-left: -5px;
+    border: none;
+    width: 100%;
+}
+
+fieldset.grupo2 {
+display: flex;
+flex-direction: column;
+padding: 15px;
+
+}
+
+input.inline {
+    margin-bottom: 10px;
+}
+
+fieldset.grupo3 {
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;   
+}
+  
+#profile-picture{
+    display: block;
+    border-radius: 6px;
+    margin-right: -5px;
+}
+#age{
+    display: block;
+    width: 100%;
+    background-color: #08082e;
+    border: none;
+    padding: 5px;
+    margin-left: -5px;
+}
+
+#referrer {
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+}
+
+#bio{
+    display: block;
+    width: 100%;
+    border: none;
+   background-color: #08082e;
+}
+
+input[type="submit"] {
+    background-color:#7b7baf;
+    border: 2px solid white;
+    border-radius: 4px;
+    color: white;
+    padding: 5px;
+   width: 20%;
+ margin: 40px;
+ margin-left: 40%;
+}
+
